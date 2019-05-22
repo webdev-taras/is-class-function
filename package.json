@@ -1,0 +1,42 @@
+{
+  "name": "is-class-function",
+  "version": "0.0.1",
+  "description": "Check if function is an ES5 constructor or an ES6 class. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "test:cover": "nyc ava",
+    "test:watch": "ava --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:webdev-taras/is-class-function.git"
+  },
+  "keywords": [
+    "class",
+    "function",
+    "constructor",
+    "check",
+    "predicate",
+    "es5",
+    "es6"
+  ],
+  "author": "Taras Panasiuk",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "nyc": "^14.1.0",
+    "sinon": "^7.3.2"
+  },
+  "ava": {
+    "files": "**/*.test.js",
+    "babel": false,
+    "compileEnhancements": false
+  },
+  "nyc": {
+    "include": "src",
+    "exclude": [
+      "**/*.test.js"
+    ]
+  }
+}
