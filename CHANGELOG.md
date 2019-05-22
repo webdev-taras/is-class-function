@@ -2,3 +2,4 @@
 - add `CHANGELOG.md`
 - add `README.md`
 - export function `is-class-function`
+- publish on npm@v0.0.1
